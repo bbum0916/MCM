@@ -39,8 +39,8 @@ start_time = get_start_time("KRW-BTC")
 end_time = start_time + datetime.timedelta(hours=21)
 
 print('now: ', now)
-print('start_time: ', now)
-print('end_time: ', now)
+print('start_time: ', start_time)
+print('end_time: ', end_time)
 
 
 # df.to_excel("dd.xlsx")
